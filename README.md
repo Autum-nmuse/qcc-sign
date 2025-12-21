@@ -36,8 +36,8 @@ const path = "/api/sns/getGlossaryInfo?ids=26%2C205%2C137%2C108%2C58%2C228%2C126
 // 请求体数据（如果是 GET 请求，传空对象）
 const data = {};
 
-// 设备/会话标识
-const tid = "916d9059d123aa5752dd440f2bd5c006";
+// 设备/会话标识 浏览器的tid，可通过window.tid获取
+const tid = "";
 
 // 生成签名头
 const signedHeader = makeSignedHeader(path, data, tid);
