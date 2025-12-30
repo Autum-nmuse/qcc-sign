@@ -54,7 +54,7 @@ function makeSignedHeader(path, data, tid) {
 const path = "/api/sns/getGlossaryInfo?ids=26%2C205%2C137%2C108%2C58%2C228%2C126%2C127";
 const data = {};
 
-const tid = "916d9059d123aa5752dd440f2bd5c006";
+const tid = "";
 
 const signed = makeSignedHeader(path, data, tid);
 console.log("路径密钥 =", pathKey(path));
